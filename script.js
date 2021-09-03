@@ -17,6 +17,7 @@ document.querySelector('.guess').nodeValue = 23;
 
 document.querySelector('.again').addEventListener('click', function () {
   //resets score to 20
+  score = 20;
   document.querySelector('.score').textContent = 20;
   //resets background color to black
   document.querySelector('body').style.backgroundColor = '#222';
